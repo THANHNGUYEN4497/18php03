@@ -1,0 +1,35 @@
+ /* CSS Document */
+#container
+{
+	background-color: white;
+	color: white;
+	text-transform:uppercase;
+}
+#Tw
+{
+	background-color:#9AF9C9;
+	height: 800px;
+	width: 200px;
+	float: left;
+}
+#rep
+{
+	background-color:#F0EA98;
+	height: 800px;
+	width: 200px;
+	float: left;
+}
+#Re
+{
+	background-color:#C9C7C7;
+	height: 800px;
+	width: 200px;
+	float: left;
+}
+#Me
+{
+	background-color:#1568C0;
+	height: 800px;
+	width: 200px;
+	float: left;
+}

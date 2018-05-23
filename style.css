@@ -1,0 +1,51 @@
+#wraper
+{
+	background-color: white;
+    margin: auto;
+	width: 900px;
+}
+#top
+{
+	background-color:#D7D7D7;
+	width: 900px;
+	height: 100px;
+	margin-bottom:100px;
+	text-transform: uppercase;
+	
+}
+#content
+{
+	background-color: #D7D7D7;
+	width: 900px;
+	height: 400px;
+	text-transform: uppercase;
+}
+#video
+{
+	background-color: red;
+	width: 400px;
+	height: 300px;
+  	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+	text-transform: uppercase;
+}
+#playlist
+{
+	background-color:#62D4AB;
+	width: 350px;
+	height: 300px;
+	margin-left: 120px;
+	margin-top: 50px;
+	float: left;
+	text-transform: uppercase;
+}
+#bottom
+{
+	margin-top: 50px;
+	background-color: #D7D7D7;
+	width: 900px;
+	height: 100px;
+	clear: both;
+	text-transform: uppercase;
+}

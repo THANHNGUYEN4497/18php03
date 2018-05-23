@@ -1,0 +1,80 @@
+/* CSS Document */
+p{
+	padding: 0;
+	margin: 0;
+}
+#wrapper
+{
+	background-color: white;
+	width: 400px;
+	height: 600px;
+	margin: auto;
+	border: solid 1px #000000;
+}
+#header
+{
+	background-color:#4E18A6;
+	width: 400px;
+	height:60px;
+	text-align: center;
+}
+#content
+{
+	background-color: #F9F9F9;
+	width: 400px;
+	height: 480px;
+}
+#left
+{
+	background-color:#AFA0CF;
+	height: 480px;
+	width: 69px;
+	float: left;
+	border-right:1px solid #000000;
+}
+#center
+{
+	background-color: white;
+	height: 480px;
+	width: 260px;
+	float: left;
+}
+#pre
+{
+	background-color: #B2AFAF;
+	height: 89px;
+	width: 260px;
+	border-bottom:1px solid #000000;
+	text-align: center;
+}
+#contentbody
+{
+	background-color:#EFEFEF;
+	height: 300px;
+	width: 260px;
+	text-align: center;
+}
+#post
+{
+	background-color: #B2AFAF;
+	height: 90px;
+	width: 260px;
+	text-align: center;
+	
+}
+#right
+{
+	background-color:#AFA0CF;
+	height: 480px;
+	width: 69px;
+	float: left;
+	border-left: 1px solid #000000;
+}
+#footer
+{
+	background-color:#4E18A6;
+	width: 400px;
+	height:60px;
+	
+	text-align: center;
+}
