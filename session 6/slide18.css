@@ -1,0 +1,55 @@
+/* CSS Document */
+
+body
+{
+	background:linear-gradient(white,#D4AB69);
+	height: 900px;	
+}
+#section
+{
+	border: 2px solid black;
+	width: 520px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 25px;
+	box-shadow: 5px 5px;
+	background: #FFFFFF;
+}
+h1
+{
+	margin: 0;
+	border: 1px dashed black;
+	padding: 10px;
+	color: #A37E11;
+}
+p
+{
+	margin: 0;
+	padding-left: 15px;
+}
+p.header
+{
+	margin-left: 20px;
+}
+a.name1
+{
+	color: rebeccapurple;
+}
+a{
+	color: green;
+	font-weight: bolder;
+}
+a:hover
+{
+	color: red;
+}
+#p1
+{
+	font-weight: bolder;
+}
+p.footer
+{
+	font-size: 13px;
+    float: right;
+	clear: both;
+}
