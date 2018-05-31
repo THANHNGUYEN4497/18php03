@@ -1,0 +1,250 @@
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(images/800px_COLOURBOX32457571.jpg);
+}
+#header
+{
+	width: 100%;
+	margin: auto;
+}
+#pannel
+{
+	width: 100%;
+	height: 100px;
+	background-image:url(logo.png);
+	background-repeat: no-repeat;
+	background-color: cadetblue;
+	box-shadow: 1px 1px 2px white;
+    text-align: center;
+}
+#taskbar
+{
+	border-top: 2px solid white;
+	width: 100%;
+	height: 40px;
+	margin: auto;
+	background-color: cadetblue;
+}
+ul li
+{
+	list-style-type:none;
+	border-right: 2px solid white;
+	width: 15%;
+	margin: 10px;
+	padding: 5px;
+	float: left;
+	text-align:center;
+	line-height: 20px;
+	
+}
+ a{
+	display: block;
+	text-decoration: none;
+	color:whitesmoke;
+	font-weight: bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	line-height: 20px;
+}
+a:hover
+{
+	color:coral;
+	
+}
+
+#sec
+{
+	width: 60%;
+	height: 700px;
+	margin: 10px;
+	float: left;
+	clear: both;
+	border-right: 1px solid #DDDDDD;
+}
+#big_box
+{
+	width: 55%;
+	height: 430px;
+	border: 1px solid #F5EEEE;
+	margin: 15px 3% 20px 3%; 
+	float: left;
+	background-color:ghostwhite;
+}
+#p1
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bolder;
+	font-size: 20px;
+	float: left;
+	color: black;
+	text-align: center;
+	line-height: 20px;
+}
+#samll-box1
+{
+	width: 33%;
+	height:200px;
+	float: left;
+	margin: 15px;
+	background-color: ghostwhite;
+}
+.p2
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: bolder;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	line-height: 20px;
+}
+#samll-box2
+{
+	width: 32%;
+	height:200px;
+	float: left;
+	margin: 15px;
+	background-color: ghostwhite;
+}
+#samll-box3
+{
+	width: 30%;
+	height:170px;
+    clear: both;
+	margin: 10px;
+	float: left;
+	background-color: ghostwhite;
+}
+#samll-box4
+{
+	
+	width: 30%;
+	height:170px;
+	background-color: ghostwhite;
+	float: left;
+	margin: 10px;
+}
+#samll-box5
+{
+	
+	width: 28%;
+	height:170px;
+	background-color: ghostwhite;
+	float: left;
+	margin: 10px;
+}
+#event_box
+{
+	width: 30%;
+	height: 250px;
+	
+	float: left;
+	margin: 20px;
+	background-image: url(images/blue-wc-2018-background.jpg);
+	border-radius: 25px blue;
+	box-shadow: 2px;
+}
+h2
+{ text-align: center;
+	color: burlywood;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+#box_content
+{
+	width: 60%;
+	height: 600px;
+    margin-left: 100px;	
+}
+span
+{
+	width: 160px;
+	height: 160px;
+}
+#footer
+{
+	width: 100%;
+	margin: auto;
+	height:200px;
+    clear: both;
+	border-radius: 5px;
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.25);
+	background-color: cadetblue;
+
+}
+@media screen and (max-width:867px)
+{
+	#header
+	{
+		width: 100%;
+	}
+	#pannel
+	{
+		width: 100%;
+	}
+	#sec
+	{
+		width: 80%;
+		float: left;
+	}
+	#samll-box1
+	{
+		width: 40%;
+		float: left;
+		margin-right: 5%;
+	}
+	#samll-box2
+	{
+		width: 40%;
+		float: left;
+	}
+	#samll-box3
+	{
+		width: 30%;
+		clear: both;
+		float: left
+	}
+	#samll-box4
+	{
+		width: 30%;
+		margin-right: 3%;
+		float: left
+	}
+	#samll-box5
+	{
+		width: 25%;
+		margin-right: 1%;
+		float: left
+	}
+	#event_box
+	{
+		display: none;
+	}
+	#footer
+	{
+		margin-top:1000px;
+		width: 100%;
+		clear: both;
+	}
+}
+@media screen and (max-width:480px)
+{
+	#header
+	{
+		width: 100%;
+	}
+	#pannel
+	{
+		width: 100%;
+	}
+	#sec
+	{
+		width: 80%;
+		float: left;
+	}
+}
