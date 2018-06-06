@@ -14,7 +14,6 @@ body
 	border-radius: 25px;
 	box-shadow: 5px 5px;
 	background: #FFFFFF;
-	float: left;
 }
 h1
 {
@@ -46,16 +45,11 @@ a:hover
 }
 #p1
 {
-	font-weight: bolder;
+	font-weight:bolder;
 }
 p.footer
 {
 	font-size: 13px;
     float: right;
 	clear: both;
-}
-#section3
-{
-	width: 50%px;
-	float: left;
 }

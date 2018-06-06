@@ -1,0 +1,80 @@
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#wrapper
+{
+	width: 80%;
+	margin: 35px;
+	border: 1px solid #000000;
+}
+
+#section1
+{
+	width: 94%;
+	margin: 1px 2px 3px 2px;
+	height: 80px;
+	border-bottom: 2px solid #ECB104;
+	margin-left: 35px;
+}
+#img1
+{
+	height: 65px;
+	width: 65px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+#header
+{
+	color:#E1AF66;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+	margin: 5px 20px 0 0;
+}
+#header
+{
+	font-size: 50px;
+	font-weight: bold;
+}
+#header2
+{
+	font-weight: bolder;
+	color: #86D07E;
+}
+#section2
+{
+	width: 90%;
+	height: 800px;
+	margin: 3px 2px 1px 2px;
+	border-bottom: 2px solid #ECB104;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+#h1{
+	font-weight: bold;
+	font-size: 30px;
+}
+#aside1
+{
+	width: 67%;
+	height: 800px;
+	border-right: 2px solid #ECB104;
+	float: left;
+}
+#aside2{
+	padding-left: 3px;
+	width: 29%;
+	height: 800px;
+	float: left;
+}
+#section3
+{
+	width: 90%;
+	height: 25px;
+	clear: both;
+	margin-left: 35px;
+}
+
