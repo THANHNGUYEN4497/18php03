@@ -1,0 +1,127 @@
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: #283F72;
+}
+#login
+{
+	width: 420px;
+	height: 520px;
+	background-color:#1A2A4A;
+	margin:50px auto;
+}
+#title
+{
+	width: 420px;
+	height: 55px;
+	margin: auto;
+	background-color: #17213A;
+}
+.signin
+{
+	color: #F3FEFF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 38px;
+	line-height: 55px;
+	text-align: center;
+	font-weight: bold;
+}
+input[type=text]
+{
+	height: 50px;
+	width: 380px;
+	background-color: #11172B;
+	border: 1px solid #1A243F;
+	margin:20px 0 0 20px;
+	color:#F5F5F5; 
+	padding-left:60px;
+	font-size: 15px;
+}
+img.account
+{
+	position: absolute;
+	margin:25px 0 0 -380px; 
+}
+img.lock
+{
+	position: absolute;
+	margin:27px 0 0 -380px; 
+	
+}
+input[type=button]
+{
+	height: 50px;
+	width: 380px;
+	margin:20px 0 0 20px;
+	background-color: #00CB65;
+	border: 1px solid #00CB65;
+	border-radius: 2px;
+	font-size: 25px;
+	color: whitesmoke;
+	font-weight: bold;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	cursor: pointer;
+}
+input[type=checkbox]{
+	margin:15px 0 0 20px;
+}
+p{
+	color: #BECBDB;
+	font-family: averia-sans-libre;
+}
+p.fpass
+{
+	color: #BECBDB;
+	font-family: averia-sans-libre;
+	margin:-18px 0 0 285px;
+}
+img.face{
+	margin-left: 7px;
+	float: left;
+}
+img.twitter
+{
+	margin-top: 17px;
+	float: left;
+}
+#footer
+{
+	width: 420px;
+	height: 60px;
+	margin:100px auto;
+	background-color: #17213A;
+}
+p.acc
+{
+	line-height: 60px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	color: yellowgreen;
+}
+input[type=submit]
+{
+	background-color: #009A67;
+	height: 47px;
+	width: 100px;
+	color: whitesmoke;
+	border: 1px solid #009A67;
+	border-radius:3px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	float: right;
+	margin: -53px 20px;
+}

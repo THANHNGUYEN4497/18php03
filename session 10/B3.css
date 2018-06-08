@@ -1,0 +1,228 @@
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0
+}
+body
+{
+	background-color: #F3F3F3;
+}
+#mess
+{
+	width: 970px;
+	height: 730;
+	margin: 50px auto;
+}
+#left
+{
+	width: 480px;
+	height: 730px;
+	background-color: aliceblue;
+	float:left;
+	
+}
+img.address
+{
+	position: absolute;
+	margin: 225px 0 0 110px; 
+}
+h3.address
+{
+	position: absolute;
+	color: white;
+	margin: 220px 0 0 160px;
+	font-size: 25px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+p.address
+{
+	margin: 275px 0 0 160px;
+	position: absolute;
+	color:#FFFFFF;
+	font-size:15px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	width: 240px;
+}
+img.phone
+{
+	position: absolute;
+	margin: 345px 0 0 110px; 
+}
+h3.phone
+{
+	position: absolute;
+	color: white;
+	margin: 340px 0 0 160px;
+	font-size: 25px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+p.phone
+{
+	margin: 385px 0 0 160px;
+	position: absolute;
+	color:#5BA77B;
+	font-size:16px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-weight: bolder;
+	width: 240px;
+}
+img.email
+{
+	position: absolute;
+	margin: 445px 0 0 110px; 
+}
+h3.email
+{
+	position: absolute;
+	color: white;
+	margin: 440px 0 0 160px;
+	font-size: 25px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+p.email
+{
+	margin: 485px 0 0 160px;
+	position: absolute;
+	color:#5BA77B;
+	font-size:16px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-weight: bolder;
+	width: 240px;
+}
+#right
+{
+	width: 480px;
+	height: 810px;
+	background-color: white;
+	float: left;
+}
+h1
+{
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	line-height: 140px;
+}
+p.name
+{
+	width:380px;
+	height: 50px;
+	background-color:#FFFFFF;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	color:#525151;
+	margin:0px auto;
+	line-height: 50px;
+	padding-left: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-weight: bold;
+}
+input[type=text1]
+{
+	height:50px;
+	width: 190px;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	margin:-0.2px 0 0 32px;
+	float: left;
+	padding-left: 15px;
+}
+input[type=text2]
+{
+	height:50px;
+	width: 190px;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	margin:-0.2px 0 0 0px;
+	float: left;
+	padding-left: 15px;
+}
+p.ema
+{
+	width:380px;
+	height: 50px;
+	background-color:#FFFFFF;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	color:#525151;
+	margin:0px auto;
+	line-height: 50px;
+	padding-left: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-weight: bold;
+	clear: both;
+	margin-top: 75px;
+}
+input[type=text3]
+{
+	width:395px;
+	height: 50px;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	margin:-0.2px 0 0 33px;
+	padding-left: 15px;
+}
+p.phon
+{
+	width:380px;
+	height: 50px;
+	background-color:#FFFFFF;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	color:#525151;
+	margin:0px auto;
+	line-height: 50px;
+	padding-left: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-weight: bold;
+	clear: both;
+	margin-top: 20px;
+}
+input[type=text4]
+{
+	width:395px;
+	height: 50px;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	margin:-0.2px 0 0 33px;
+	padding-left: 15px;
+}
+p.mes
+{
+	width:380px;
+	height: 50px;
+	background-color:#FFFFFF;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	color:#525151;
+	margin:0px auto;
+	line-height: 50px;
+	padding-left: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-weight: bold;
+	clear: both;
+	margin-top: 20px;
+}
+input[type=text5]
+{
+	width:395px;
+	height: 120px;
+	border: 1.2px solid #CFCDCD;
+	border-radius: 1.5px;
+	margin:-0.2px 0 0 33px;
+	padding-left: 15px;
+}
+input[type=submit]
+{
+	width: 170px;
+	height: 45px;
+	background-color: #00AD5E;
+	border: 1px solid #00AD5E;
+	border-radius: 2px;
+	color: white;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-weight: bold;
+	font-size: 17px;
+	margin: 20px 0 0 140px;
+	cursor: pointer;
+}
