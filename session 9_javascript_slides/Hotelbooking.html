@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hotel Booking</title>
+<link rel="stylesheet" type="text/css"  href="Hotel.css"/>
+</head>
+
+<body>
+	<section id="heder">
+	  <div id="home">
+		<a class="home" href="Hotelbooking.html" title="Home Page"><img src="images/booking.jpg" height="80px" width="105px" alt=""></a>
+		  <img class="bow" src="images/bow.png" alt="logo bow" width="200px" height="390px"> 
+	  </div>
+		
+	  <a href="#" target="_self"><div id="login">LOGIN REGISTER</div></a>
+	  <div id="taskbar">
+	  <ul>
+		  <li><a href="#">HOME</a></li>
+	      <li><a href="#">ACCOMODATION</a></li>
+		  <li><a href="#">GALLERY</a></li>
+		  <li><a href="#">FEATURES</a></li>
+		  <li><a href="#">NEWS</a></li>
+		  <li><a href="#">CONTRACTS</a></li>
+	  </ul>
+		  <div id="phone">
+	          <img src="images/phone.png" width="20" height="20" alt="">
+			  0123 456 789
+		  </div>
+	  </div>	  
+	</section>
+	<section id="body">
+        <div id="box">
+		<p id="par">BOOK YOU</p>
+		<span>ROOMS</span>
+		</div> 
+		<form name="book" action="#" method="post"> 		
+		   <div id="form">
+		    <input type="datetime" id="arrival" name="date" placeholder="ARRIVAL">
+		    <input type="datetime" id="departure" name="date" placeholder="DEPARTURE">
+			 <select >
+			   <option>ROOM SINGLE</option>
+				<option>ROOM DOUBLE</option>
+				<option>ROOM ORTHER</option>
+			 </select>
+			<select >
+			   <option>ADULT</option>
+				<option>ADULT</option>
+				<option>ADULT</option>
+			 </select>
+			   <select >
+			   <option>CHILD</option>
+				<option>CHILD</option>
+				<option>CHILD</option>
+			 </select>
+			   <input type="button" value="BOOK">
+	        </div>	
+	   </form>
+		<p class="solgan"> A BRAND NEW HOTEL BEYOND ORDINARY
+		  <input type="submit" value="EXPLORE IT">
+		</p>
+		<div id="slideContainer">
+		    <div class="sub_slide fade">
+				    <div class="numbertext">1/3</div>
+	               	<img src="images/2.jpg" alt="" width="100%" height="620px;" style="color: white;">
+				    <div class="text">Caption Text</div>
+			</div>
+			<div class="sub_slide fade">
+				    <div class="numbertext">2/3</div>
+	               	<img src="images/1.jpg" alt="" width="100%" height="620px;" style="color: white;">
+				    <div class="text">Caption Two</div>
+			</div>
+			<div class="sub_slide fade">
+				    <div class="numbertext">3/3</div>
+	               	<img src="images/3.jpg" alt="" width="100%" height="620px;" style="color: white;">
+				    <div class="text">Caption Three</div>
+			</div>
+		  <a class="prev" onClick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onClick="plusSlides(1)">&#10095;</a>
+		 <br />
+			<div style="text-align: center">
+			    <span class="dot" onClick="currentSlides(1)"></span>
+				<span class="dot" onClick="currentSlides(2)"></span>
+				<span class="dot" onClick="currentSlides(3)"></span>
+			</div>	
+		</div>	
+ 	</section>
+	<div id="intro">
+		<p class="welcome"> WELCOME TO HOTEL</p>
+		<p class="icon">- &clubs; -</p>
+		<p class="text_intro">Semper ac dolor vitae.Cras interdum hendrerit lacinia.Phasellus accumsan urna vitae molestie interdum.Nam sed placerat libero,non eleifend dolor</p>
+	</div>
+	<script>
+	  var slidesIndex=1;
+		showSlides(slidesIndex);
+	    function plusSlides(n)
+		{
+			showSlides(slidesIndex +=n);
+		}
+		function currentSlides(n)
+		{
+			showSlides(slidesIndex =n);
+		}
+		function showSlides(n)
+		{
+			var i;
+			var slides=document.getElementsByClassName("sub_slide")
+			var dots=document.getElementsByClassName("dot")
+			if(n>slides.length){slidesIndex=1}
+			if(n<1){slidesIndex=slides.length}
+			for(i=0 ;i<slides.length;i++){
+				slides[i].style.display="none";
+			}
+			for(i=0;i<dots.length;i++){
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slidesIndex-1].style.display="block";
+			dots[slidesIndex-1].className += " active";
+		}
+	</script>
+			
+</body>
+</html>
