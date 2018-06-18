@@ -1,0 +1,82 @@
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#img1
+{
+	height: 60px;
+	width: 110px;
+    position:relative;
+	margin-left: 550px;
+	-webkit-animation :mymove 5s 2 alternate;
+	animation: mymove 5s 2 alternate;	
+}
+#1
+{
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+	float: left;
+	
+}
+#img2
+{
+	height: 60px;
+	width: 110px;
+	margin:40px 0 0 550px;
+    position:absolute;
+	-webkit-animation :mymoveta 4s 2 alternate;
+	animation: mymove 4s 2 alternate;	
+}
+#2
+{
+	animation-timing-function: ease-in;
+	-webkit-animation-timing-function: ease-in;
+	animation-iteration-count: 2;
+}
+@keyframes mymove{
+	from{left: 0px;}
+	to{left: -600px;}
+}
+@keyframes mymoveta{
+	from{left: 0px;}
+	to{left: 400px;}
+}
+.right
+{
+	height: 30px;
+	width: 80px;
+	background-color: #01032F;
+	border-radius: 15px;
+	border: 1px solid #01032F;
+	color: aliceblue;
+	font-weight: bold;
+	box-shadow: 0 9px #999; ;
+	margin: 25px 0 0 500px;
+	cursor: pointer;
+	outline: none;
+}
+.left
+{
+	height: 30px;
+	width: 80px;
+	background-color: #01032F;
+	border-radius: 15px;
+	border: 1px solid #01032F;
+	color: aliceblue;
+	font-weight: bold;
+	box-shadow: 0 9px #999; ;
+	margin: 25px 0 0 5px;
+	cursor: pointer;
+	outline: none;
+}
+.right:hover,.left:hover
+{
+	background-color: #0B0C25;
+}
+.right:active,.left:active{
+	transform: translateY(4px);
+	box-shadow:0 5px #666;
+	background-color: #0B0C25;
+}
