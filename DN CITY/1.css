@@ -1,0 +1,130 @@
+*{margin:0;padding:0; }
+body{
+ 	line-height: 1.8;
+  	color: #f5f6f7;
+ 	position: relative;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	color: #282923;
+ 	font-weight: 700;
+
+ }
+body {
+    width: 100%;
+    height: 100%;
+}
+#navbar{
+  top: 0;
+  transition: top 0.5s;
+  display: block;
+}
+.intro-messeage{
+	margin:200px 0 0 0;
+}
+.intro-messeage > h1{
+    margin: 0;
+    text-shadow: 2px 2px 3px #E9E8E8;
+    font-size: 4em;
+    color:#021C34;
+    font-weight: 20px;
+    position: relative;
+
+}
+.intro-messeage >h2{
+    margin:10px 0 0 0;
+    text-shadow: 2px 2px 3px #E9E8E8;
+    font-size: 2.5em;
+    color:#021C34;
+     font-weight: 10px;
+     position: relative;
+}
+ .intro-header{
+ 	padding-top: 50px; 
+    padding-bottom: 200px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(./images/bg.jpg) no-repeat center center scroll  ;
+ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+ }
+
+ .navbar >ul{
+ 	font-family: Montserrat, sans-serif;
+ }
+ .navbar-nav li a:hover{
+    color: #0ACFA8 !important;
+  }
+ .content1{
+      padding:35px 0 50px 0;
+      border: none;
+      background-color: #F3F3F3;
+
+ }
+ .intro-divider{
+     width: 400px;
+    border-top: 2px solid #021C34;
+    text-shadow: : 2px 2px 3px solid #E9E8E8;
+   
+ }
+ br1.p{
+ 	
+ 	background-color: #FFFFFF;
+ 	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	padding-bottom: 10px;
+ }
+ .bridges{
+ 	padding:65px 0 85px 0;
+ 	background-color: #FFFFFF;
+ 	 }
+ .hr2{
+ 	width: 200px;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+ }
+.IoT{
+	 padding:10px 0 30px 0;
+      border: none;
+      background-color: #F3F3F3;
+     
+ }
+.event{
+	padding:20px 0 90px 0; 
+}
+.event h1, .bridges h3, .oursevices h2 {
+	text-shadow: 2px 4px 3px #E9E8E8;
+    font-size: 2.5em;
+    color:#021C34;
+    font-weight:bold;
+}
+.margin{
+	margin:20px 10px 25px 0;
+}
+.margin:hover{
+	opacity: 0.8;
+}
+.event{
+	   padding:50px 0 30px 0; 
+		background-color: #ffffff;
+}
+.oursevices{
+	padding:20px 0 30px 0; 
+
+}
+
+.cliclk{
+	padding:10px 0 30px 0; 
+	background-color: #399BD3;
+	color: white;
+	margin:50px 0 0 0;
+}
+
+footer{
+	padding:20px 0 30px 0; 
+	
+}
+@media only screen and (max-width:768px) {
+     
+ }
